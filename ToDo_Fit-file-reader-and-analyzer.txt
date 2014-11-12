@@ -1,0 +1,19 @@
+FIT_FILE_READER_AND_ANALYZER 
+
+TO DO LIST------------------------------------
+
+1_PARTE GRAFICA
+
+- sistemare il div con i check per il tempo e la distanza
+- diminuire il padding
+- nei grafici del gps vedere come cambia la visualizzazione se i grafici vengono costruiti raggruppando i punti due o tre
+
+
+2_PARTE CODICE
+
+- tradurre in italiano completo (o inglese completo successivamente)
+- attivare il tasto per la visualizzazione del tempo invece che la distanza
+- durata: creare la voce per le ore e arrontondare i secondi
+
+
+
