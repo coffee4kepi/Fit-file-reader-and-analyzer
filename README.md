@@ -1,4 +1,4 @@
-Fit-file-reader-and-analyzer
+Fit file reader and analyzer
 ============================
 
 Simple decoding and analizing tool for Garmin FIT files
