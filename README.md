@@ -1,8 +1,9 @@
 Fit file reader and analyzer
 ============================
 
-Simple decoding and analizing tool for Garmin FIT files
-Strumento semplice per decodificare e analizzare file in formato Garmin FIT
+Simple decoding and analizing tool for Garmin FIT files.
+
+Strumento semplice per decodificare e analizzare file in formato Garmin FIT.
 
 <!-- BADGES/ -->
 
