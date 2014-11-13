@@ -30,5 +30,8 @@ Strumento semplice per decodificare e analizzare file in formato Garmin FIT.
 * UTILIZZO
 	- una volta fatto tutto quanto detto sopra ed aperta la pagina principale basta scegliere il nome del file di cui si vuole visualizzare il 		contenuto et voilà
 
+* CONTRIBUISCI - ASSISTENZA
+	- hai provato Ffra e hai avuto problemi con l'analisi dei dati? nella pagina di visualizzazione dei dati sono comparse molte voci "vuoto" 		oppure "formato sbagliato"? segnala l'issue su github e inviami il file dati. Provvederò al più presto a controllare.
+
 
 

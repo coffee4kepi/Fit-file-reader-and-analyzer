@@ -156,10 +156,10 @@
 	<div id="time_switch" align="center">
 
 		<form  action="" valign="middle">
-			<label for="button_tempo">DATI DA MOSTRARE SULL'ASSE X :</label>
-			<input type="radio" id="button_distanza" name="display" onclick=""> 
+			<label for="button_tempo">MOSTRA SULL'ASSE X :</label>
+			<input type="radio" id="button_distanza" name="display" onclick="cambio_grafico();"> 
 			<label for="button_distanza">distanza</label>
-			<input type="radio" id="button_tempo" name="display" onclick=""> 
+			<input type="radio" id="button_tempo" name="display" onclick="cambio_grafico();"> 
 			<label for="button_tempo">tempo</label>
 		</form>
 	</div>
@@ -240,24 +240,27 @@
 	var datagps_ta =<?php echo json_encode($dati_grafico_gps_ta); ?> ;
 
 
-	document.getElementById('title_gps1').innerHTML='VELOCITA [min/km] VS N.GIRO';
+	document.getElementById('title_gps1').innerHTML='VELOCITA [min/km] VS DISTANZA';
 	disegna("#gps1",1200,250,'line','green',datagps_dv,'velocita','x_gps_axis1',min_km,'y_gps_axis1');
 	if (alt==1) {
 		document.getElementById('chart_lap_container').offsetHeight= 900;
-		document.getElementById('title_gps2').innerHTML='PENDENZA [%] VS N.GIRO';
+		document.getElementById('title_gps2').innerHTML='PENDENZA [%] VS DISTANZA';
 		disegna("#gps2",1200,250,'line','blue',datagps_dp,'pendenza','x_gps_axis2',neutro,'y_gps_axis2');
-		document.getElementById('title_gps3').innerHTML='ALTITUDINE [m] VS N.GIRO';
+		document.getElementById('title_gps3').innerHTML='ALTITUDINE [m] VS DISTANZA';
 		disegna("#gps3",1200,250,'line','gray',datagps_da,'altitudine','x_gps_axis3',neutro,'y_gps_axis3');
 	}
 
 	function cambio_grafico(){
 
-		bool=document.getElementById('button_gps').checked;
+		bool=document.getElementById('button_distanza').checked;
 		if (bool==false){
-			b=true;
+			b=true; //dati in funzione del TEMPO
+
+
 
 		}else{
-			b=false;
+			b=false; //dati in funzione della DISTANZA
+
 
 		}
 		return true;
