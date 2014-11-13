@@ -1,8 +1,8 @@
 FIT_FILE_READER_AND_ANALYZER 
 
 * REQUISITI DI SISTEMA
-	- php server v>5, reperibile al sito www.;
-	- Shuttestock Richshaw js graph library. reperibile su https://github.com/shutterstock/rickshaw
+	- php server v>4, reperibile al sito http://php.net/downloads.php oppure http://windows.php.net/download/;
+	- Shuttestock Richshaw js graph library. Reperibile su https://github.com/shutterstock/rickshaw
 
 * INSTALLAZIONE
 	- copiare i file in una posizione del pc in cui si possiedano i permessi di esecuzione di script php da parte del browser;
